@@ -5,6 +5,7 @@ import "./styles/Header.scss";
 import Home from "./components/home/Home";
 import Headers from "./components/layout/Header";
 import "./styles/home.scss";
+import "./styles/Founder.scss";
 
 function App() {
   return (

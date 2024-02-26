@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Founder from "./Founder";
 
 function Home() {
   const op = {
@@ -13,23 +14,33 @@ function Home() {
     },
   };
   return (
+    <>
     <section className="home">
       <div>
         <motion.h1 {...op}>B.Tech </motion.h1>
-        <motion.p {...op} transition={{delay:0.2,}}>Give Yourself a Way</motion.p>
+        <motion.p {...op} transition={{ delay: 0.2 }}>
+          Give Yourself a Way
+        </motion.p>
       </div>
 
-      <motion.a href="#menu"
-         initial={{
-          y:"-100%",
-          opacity:0,
-         }} whileInView={{
-          y:"0%",
-          opacity:1,
-         }}
+      <motion.a
+        href="#menu"
+        initial={{
+          y: "-100%",
+          opacity: 0,
+        }}
 
-      >Explore Menu</motion.a>
+        whileInView={{
+          y: "0%",
+          opacity: 1,
+        }}
+        transition={{ delay: 0.4 }}
+      >
+        Explore Menu
+      </motion.a>
     </section>
+    <Founder/>
+    </>
   );
 }
 
