@@ -14,7 +14,7 @@ function Founder() {
   };
 
   return (
-    <sectioon ClassName="founder">
+    <section className="founder">
       <motion.div {...op}>
         <img src={me} alt="founder" height={200} width={200} />
         <h3>Suraj Prasad</h3>
@@ -24,7 +24,7 @@ function Founder() {
           reiciendis et aliquid voluptates magni saepe facere magnam nam cum ea!
         </p>
       </motion.div>
-    </sectioon>
+    </section>
   );
 }
 

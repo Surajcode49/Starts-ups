@@ -4,8 +4,10 @@ import "./styles/app.scss";
 import "./styles/Header.scss";
 import Home from "./components/home/Home";
 import Headers from "./components/layout/Header";
+
 import "./styles/home.scss";
-import "./styles/Founder.scss";
+import "./styles/founder.scss";
+import "./styles/menu.scss";
 
 function App() {
   return (
